@@ -1,0 +1,23 @@
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.h2 {
+    margin-left: 7.87rem;
+    font-weight: 600;
+    font-size: 1.625em;
+} 
+
+.ul {
+    padding: 0;
+    margin-left: auto;
+    display: flex;
+    font-size: 1.375em;
+    font-weight: 600;
+}
+
+.li {
+    margin-right: 7.87rem;
+    list-style: none;
+}

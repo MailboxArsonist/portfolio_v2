@@ -1,0 +1,25 @@
+.section {
+    margin-bottom: 3rem;
+    padding-top: 12.5rem;
+}
+
+.container {
+    max-width: 40rem;
+    margin-right: auto;
+}
+
+.h3 {
+    font-weight: 600;
+    font-size: 1.875em;
+    margin-bottom: 2rem;
+} 
+
+.p {
+    font-size: 1.25em;
+    margin-bottom: 1.25rem;
+    line-height: 1.6em;
+}
+
+.p:last-of-type {
+    margin-bottom: 5rem;
+}
