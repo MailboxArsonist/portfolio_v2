@@ -1,8 +1,30 @@
-.button {
+.article {
+    width: 348px;
+    height: 376px;
     background-color: var(--primary);
-    border: none;
-    border-radius: 10px;
-    padding: .6rem 1.65rem;
     color: #fff;
-    font-size: 22px;
+    border-radius: 20px;
+    padding: 1rem;
+    margin-left: 3.75rem;
+    flex-shrink: 0;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.icons img {
+    margin-left: 10px;
+}
+
+.h4 {
+    font-size: 1.5em;
+    margin-bottom: 0.75rem;
+    font-weight: 600;
+}
+
+.p {
+    font-weight: 500;
 }

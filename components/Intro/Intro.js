@@ -1,5 +1,9 @@
 import styles from './Intro.module.css'
+import CardContainer from '../CardContainer/CardContainer'
+import Card from '../Card/Card'
+import services from '../../data/services.json'
 
+const Cards = services.map(({title, text, icons}) => (<Card title={title} text={text} key={title} icons={icons} />))
 export default function Intro() {
     return (
         <section className={styles.section}>
@@ -15,8 +19,11 @@ export default function Intro() {
                     Currently I’m working at Obat helping to digitalise the French speaking construction / trade industry 
                     (salut, je parle Francais aussi 🇨🇮).
                 </p>
-                <h3 className={styles.h3}>So what do I do ?</h3>
             </div>
+            <h3 className={styles.h3}>So what do I do ?</h3>
+            <CardContainer>
+                { Cards }
+            </CardContainer>
         </section>
     )
 }

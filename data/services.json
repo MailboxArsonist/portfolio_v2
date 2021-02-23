@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Front end stuff",
+        "text": "Did I mention I like working with JavaScript? In the ever changing world of FE I try my best to keep up to date. React, Vue, Webpack, SCSS, semantic HTML5.",
+        "icons": ["react.svg", "javascript.svg", "sass.svg"]
+    },
+    {
+        "title": "Back end",
+        "text": "Did I mention I like working with JavaScript? In the ever changing world of FE I try my best to keep up to date. React, Vue, Webpack, SCSS, semantic HTML5.",
+        "icons": ["react.svg", "javascript.svg", "sass.svg"]
+    },
+    {
+        "title": "Back end",
+        "text": "Did I mention I like working with JavaScript? In the ever changing world of FE I try my best to keep up to date. React, Vue, Webpack, SCSS, semantic HTML5.",
+        "icons": ["react.svg", "javascript.svg", "sass.svg"]
+    },
+    {
+        "title": "Back end",
+        "text": "Did I mention I like working with JavaScript? In the ever changing world of FE I try my best to keep up to date. React, Vue, Webpack, SCSS, semantic HTML5.",
+        "icons": ["react.svg", "javascript.svg", "sass.svg"]
+    }
+]
