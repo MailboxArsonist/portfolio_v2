@@ -13,10 +13,12 @@
     display: flex;
     align-items: center;
     margin-bottom: 0.5rem;
+    margin-top: 5rem;
+    margin-bottom: 2.37rem;
 }
 
-.icons img {
-    margin-left: 10px;
+.icons > div {
+    margin-right: 1.125rem!important;
 }
 
 .h4 {
