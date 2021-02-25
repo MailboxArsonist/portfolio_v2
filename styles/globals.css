@@ -21,7 +21,19 @@ a {
 }
 
 section {
-  max-width: 78rem;
+  max-width: 90%;
   margin: auto;
+}
+
+@media screen and (min-width: 1200px) {
+  section {
+    max-width: 72rem;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  section {
+    max-width: 78rem;
+  }
 }
 
