@@ -1,9 +1,16 @@
 .container {
-    padding-top: 5rem;
+    padding-top: 1.5rem;
 }
 
 .cards {
     overflow-x: auto;   
     width: 100%;
     display: flex;
+}
+
+
+@media screen and (min-width: 600px) {
+    .container {
+        padding-top: 5rem;
+    }
 }

@@ -20,7 +20,7 @@ export default function Intro() {
                     (salut, je parle Francais aussi 🇨🇮).
                 </p>
             </div>
-            <h3 className={styles.h3}>So what do I do ?</h3>
+            <h4 className={styles.h4}>So what do I do ?</h4>
             <CardContainer>
                 { Cards }
             </CardContainer>

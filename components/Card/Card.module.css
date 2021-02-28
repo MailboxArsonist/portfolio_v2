@@ -1,24 +1,27 @@
 .article {
-    width: 348px;
-    height: 376px;
+    width: 280px;
+    height: 330px;
     background-color: var(--primary);
     color: #fff;
     border-radius: 20px;
     padding: 1rem;
-    margin-left: 3.75rem;
+    margin-left: 1.6rem;
     flex-shrink: 0;
+}
+
+.article:first-of-type {
+    margin-left: 1rem;
 }
 
 .icons {
     display: flex;
     align-items: center;
-    margin-bottom: 0.5rem;
-    margin-top: 5rem;
-    margin-bottom: 2.37rem;
+    margin-top: 3rem;
+    margin-bottom: 1.4rem;
 }
 
 .icons > div {
-    margin-right: 1.125rem!important;
+    margin-right: 1rem!important;
 }
 
 .h4 {
@@ -29,4 +32,23 @@
 
 .p {
     font-weight: 500;
+}
+
+
+@media screen and (min-width: 600px) {
+    .article {
+        width: 340px;
+        height: 376px;
+        margin-left: 3rem;
+    }
+    
+    .icons {
+        margin-top: 5rem;
+        margin-bottom: 2.37rem;
+    }
+    
+    .icons > div {
+        margin-right: 1.125rem!important;
+    }
+    
 }

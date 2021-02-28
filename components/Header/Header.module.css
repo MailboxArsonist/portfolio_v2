@@ -1,10 +1,16 @@
 .nav {
     display: flex;
     align-items: center;
+    position: relative;
+    height: 140px;
+    z-index: 1;
+    
+    -webkit-user-select: none;
+    user-select: none;
 }
 
 .h2 {
-    margin-left: 7.87rem;
+    margin-left: 2rem;
     font-weight: 600;
     font-size: 1.625em;
 } 
@@ -20,4 +26,100 @@
 .li {
     margin-right: 7.87rem;
     list-style: none;
+}
+
+.toggle {
+    background: none;
+    border: none;
+    width: 40px;
+    margin-right: 1.5rem;
+    outline: none;
+    cursor: pointer;
+    margin-left: auto;
+    display: none;
+}
+  
+.toggle:before,
+.toggle:after,
+.toggle div {
+    background: black;
+    content: "";
+    display: block;
+    height: 4px;
+    border-radius: 3px;
+    margin: 7px 0;
+    transition: 0.5s;
+}
+.nav[data-open="open"] .toggle:before {
+    transform: translateY(8px) rotate(135deg);
+}
+.nav[data-open="open"] .toggle:after {
+    transform: translateY(-14px) rotate(-135deg);
+}
+.nav[data-open="open"] div {
+    transform: scale(0);
+}
+
+.nav[data-open="open"] .ul {
+    transform: none;
+}
+
+@media screen and (min-width: 600px) {
+    .h2 {
+        margin-left: 3.5rem;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .h2 {
+        margin-left: 5rem;
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+    .nav {
+        height: 100px;
+    }
+
+
+    .toggle {
+        display: block;
+    }
+    .ul {
+        position: absolute;
+        width: 200px;
+        padding: 1.5rem;
+        border-radius: 20px;
+        box-shadow: 0 2px 27px rgb(0 0 0 / 8%);
+        flex-direction: column;
+        margin: 0;
+        background: #fff;
+        list-style-type: none;
+        -webkit-font-smoothing: antialiased;
+        /* to stop flickering of text in safari */
+        
+        transform-origin: 0% 0%;
+        top: 100px;
+        right: 0;
+        transform: translate(100%, 0);
+        
+        transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+    }
+
+    .ul .li {
+        padding-bottom: 0.5rem;
+        margin: 0;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .h2 {
+        margin-left: 7.87rem;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .footer > div {
+        max-width: 78rem;
+    }
 }
