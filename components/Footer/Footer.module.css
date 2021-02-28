@@ -22,7 +22,7 @@
 .footer h4 {
     font-size: 2.5em;
     font-weight: 700;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 .footer p {
@@ -47,6 +47,38 @@
 
 .links li {
     margin-right: 0.75rem;
+}
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    max-width: 460px;
+}
+
+
+.formContainer h4 {
+    font-size: 1.875em;
+}
+
+.formContainer p {
+    font-weight: 700;
+    margin-bottom: 5rem;
+}
+
+.formContainer input::placeholder, .formContainer textarea::placeholder {
+    color: #636371;
+}
+
+.formContainer input, .formContainer textarea {
+    font-size: 1rem;
+    border: 1px solid #636371;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+    font-family: 'Khula', sans-serif;
+    padding: 0.75rem;
+    
 }
 
 @media screen and (min-width: 1200px) {
