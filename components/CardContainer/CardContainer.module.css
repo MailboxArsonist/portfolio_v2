@@ -6,6 +6,11 @@
     overflow-x: auto;   
     width: 100%;
     display: flex;
+    scrollbar-width: none;
+}
+
+.cards::-webkit-scrollbar {
+    display: none;
 }
 
 

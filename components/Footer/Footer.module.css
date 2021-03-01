@@ -95,6 +95,12 @@
     }
 }
 
+@media screen and (min-width: 800px) {
+    .footer {
+        padding-bottom: 14rem;
+    }
+}
+
 
 @media screen and (min-width: 1200px) {
     .footer > div {

@@ -14,7 +14,7 @@ export default function Footer() {
     }
 
     return (
-        <footer className={styles.footer}>
+        <footer id="footer" className={styles.footer}>
             <div>
                 <div>
                     <h4>Contact</h4>
