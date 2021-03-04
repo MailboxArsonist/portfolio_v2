@@ -1,11 +1,56 @@
 import styles from './Projects.module.css'
-import projects from '../../data/projects.json'
+import projectsData from '../../data/projects.json'
 import ProjectCard from '../ProjectCard/ProjectCard'
+import ProjectModal from '../ProjectModal/ProjectModal'
+import Modal from 'react-modal'
+import { useState } from 'react'
+
+Modal.setAppElement('#__next')
+
+const customStyles = {
+    content : {
+      top                   : '50%',
+      left                  : '50%',
+      right                 : 'auto',
+      bottom                : 'auto',
+      marginRight           : '-50%',
+      width : '600px',
+      maxWidth : '100%',
+      transform             : 'translate(-50%, -50%)'
+    }
+  };
 
 export default function Projects() {
-    const Projects = projects.map(({title, text, src, buttonText}) => (<ProjectCard title={title} text={text} key={title} src={src} buttonText={buttonText} />))
+    const [modalIsOpen, setIsOpen] = useState(false);
+    const [projects] = useState(projectsData);
+    const [currentProject, setCurrentProject] = useState(null);
+    
+
+    function openModal(index) {
+        setIsOpen(true)
+        setCurrentProject(projects[index])
+    }
+
+
+    function closeModal(){
+        setIsOpen(false)
+        setCurrentProject(null)
+    }
+
+    const Projects = projects.map(({title, text, src, buttonText}, index) => (
+        <ProjectCard openModal={openModal} title={title} text={text} key={index + title} src={src} buttonText={buttonText} index={index} />
+    ))
+
     return (
         <section className={styles.section}>
+            <Modal
+                isOpen={modalIsOpen}
+                onRequestClose={closeModal}
+                style={customStyles}
+                contentLabel="Example Modal"
+            >
+                { currentProject && <ProjectModal project={currentProject} closeModal={closeModal} /> }
+            </Modal>
             <h3 className={styles.h3}>Heres’s some of my work</h3>
             {Projects}
         </section>
