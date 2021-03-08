@@ -9,10 +9,8 @@
     user-select: none;
 }
 
-.h2 {
+.logo {
     margin-left: 2rem;
-    font-weight: 600;
-    font-size: 1.625em;
 } 
 
 .ul {
@@ -65,18 +63,22 @@
 }
 
 @media screen and (min-width: 600px) {
-    .h2 {
+    .logo {
         margin-left: 3.5rem;
     }
 }
 
 @media screen and (min-width: 800px) {
-    .h2 {
+    .logo {
         margin-left: 5rem;
     }
 }
 
 @media screen and (max-width: 900px) {
+
+    .logo {
+        margin-top: 1.2rem;
+    }
 
     .nav {
         height: 100px;
