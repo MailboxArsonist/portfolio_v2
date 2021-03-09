@@ -8,7 +8,7 @@ export default function ProjectCard({title, text, src, buttonText, alt, openModa
     }
     return (
         <article className={styles.article}>
-            <img src={src} className={styles.image} alt={alt} />
+            <img src={`/projects/${src}`} className={styles.image} alt={alt} />
             <div>
                 <h6>{title}</h6>
                 <p>{text}</p>
