@@ -634,6 +634,11 @@ elliptic@^6.5.3:
     minimalistic-assert "^1.0.1"
     minimalistic-crypto-utils "^1.0.1"
 
+embla-carousel@^4.1.5:
+  version "4.1.5"
+  resolved "https://registry.yarnpkg.com/embla-carousel/-/embla-carousel-4.1.5.tgz#b194b75b7fe984c7d53273eebf431f8b9db9f713"
+  integrity sha512-iohN/kibGHUqO+4JbfFKm+9CEA6DEBwIK1RaxDhspoX3Ypm27HQDWbJ4Cbj9FEcQhSlbJoN5v7AUxtUYd9BvbQ==
+
 emojis-list@^2.0.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/emojis-list/-/emojis-list-2.1.0.tgz#4daa4d9db00f9819880c79fa457ae5b09a1fd389"
