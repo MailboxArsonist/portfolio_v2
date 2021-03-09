@@ -2,8 +2,29 @@
     {
         "title": "Obat",
         "text": "Working on various parts of the invoicing platform lorem ipsum.",
-        "src": "/obat.png",
+        "src": "obat/main.png",
         "alt": "obat platform",
-        "buttonText": "See more"
+        "buttonText": "See more",
+        "linkUrl": "https://www.obat.fr/",
+        "linkText": "Go to Obat",
+        "infoTexts": [
+            "Obat is an invoicing platform based in France, focused on the construction sector.",
+            "I started working freelance which advanced into a full-time role.",
+            "PHP, Symfony, React, JavaScript, Bootstrap, Scss, jQuery"
+        ],
+        "images": [
+            { 
+                "src": "projects/obat/referral.gif",
+                "alt": "a photo"
+            },
+            { 
+                "src": "projects/obat/platform.png",
+                "alt": "a photo"
+            },
+            { 
+                "src": "projects/obat/admin.png",
+                "alt": "a photo"
+            }
+        ]
     }
 ]
