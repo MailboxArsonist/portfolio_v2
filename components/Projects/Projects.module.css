@@ -7,3 +7,20 @@
     font-size: 1.875em;
     margin-bottom: 2rem;
 } 
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-row-gap: 3rem;
+    grid-column-gap: 2rem;
+}
+
+@media screen and (min-width: 600px) {
+
+    .projects {
+        grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+        grid-row-gap: 4rem;
+        grid-column-gap: 0;
+    }
+    
+}

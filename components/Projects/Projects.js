@@ -29,12 +29,10 @@ export default function Projects() {
     const [projects] = useState(projectsData);
     const [currentProject, setCurrentProject] = useState(null);
     
-
     function openModal(index) {
         setIsOpen(true)
         setCurrentProject(projects[index])
     }
-
 
     function closeModal(){
         setIsOpen(false)
@@ -47,6 +45,7 @@ export default function Projects() {
 
     return (
         <section className={styles.section}>
+
             <Modal
                 isOpen={modalIsOpen}
                 onRequestClose={closeModal}
@@ -55,8 +54,13 @@ export default function Projects() {
             >
                 { currentProject && <ProjectModal project={currentProject} closeModal={closeModal} /> }
             </Modal>
+
             <h3 className={styles.h3}>Heres’s some of my work</h3>
-            {Projects}
+
+            <div className={styles.projects}>
+                { Projects }
+            </div>
+
         </section>
     )
 }
