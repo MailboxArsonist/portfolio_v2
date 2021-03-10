@@ -45,6 +45,7 @@ section {
 .ReactModal__Overlay {
   opacity: 0;
   transition: opacity 200ms ease-in-out;
+  overflow-y: scroll;
 }
 
 .ReactModal__Overlay--after-open{
