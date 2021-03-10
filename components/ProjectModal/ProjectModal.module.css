@@ -28,12 +28,12 @@
 
 .info h6 {
     font-size: 1.6rem;
-    color: #00000091;
     margin-bottom: 0.6rem;
 }
 
 .info p {
     margin-bottom: 0.2rem;
+    font-size: 1.1rem;
 }
 
 .info p:last-of-type {
@@ -42,7 +42,8 @@
 
 .info a {
     color: var(--primary);
-    line-height: 1.2;
+    line-height: 1.4;
+    font-size: 1.2rem;
     font-weight: 600;
 }
 
