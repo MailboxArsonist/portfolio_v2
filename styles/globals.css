@@ -12,6 +12,7 @@ body {
   overflow-x: hidden;
   height: 100%;
   --primary: #1539CF;
+  --secondary: #233c9e;
   scroll-behavior: smooth;
 
 }

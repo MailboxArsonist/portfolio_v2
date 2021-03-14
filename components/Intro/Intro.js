@@ -17,7 +17,13 @@ export default function Intro() {
                 </p>
                 <p className={styles.p}>
                     Currently I’m working at Obat helping to digitalise the French speaking construction / trade industry 
-                    (salut, je parle Francais aussi 🇨🇮).
+                    (salut, je parle Francais aussi 🇫🇷).
+                </p>
+                <p className={styles.p}>
+                    Here's my 
+                    <a href="https://drive.google.com/file/d/1uVN-6Fi74oswvmmqlWWVVtssLTQK8rYy/view?usp=sharing" target="_blank"> CV </a> 
+                    and <a href="https://github.com/MailboxArsonist" target="_blank">Github </a> 
+                    if you'd like to get stuck in!
                 </p>
             </div>
             <h4 className={styles.h4}>So what do I do ?</h4>
