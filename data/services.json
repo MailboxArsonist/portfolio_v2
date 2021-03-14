@@ -1,22 +1,22 @@
 [
     {
         "title": "Front end stuff",
-        "text": "Did I mention I like working with JavaScript? In the ever changing world of FE I try my best to keep up to date. React, Vue, Webpack, SCSS, semantic HTML5.",
-        "icons": ["react.svg", "javascript.svg", "sass.svg"]
+        "text": "Did I mention I like working with JavaScript? In the ever changing world of FE I try my best to keep up to date. React, Vue (Nuxt.js), Webpack, SCSS, semantic HTML5, Bootstrap, jQuery.",
+        "icons": ["react.svg", "javascript.svg", "nuxt.svg", "bootstrap.svg", "sass.svg"]
     },
     {
         "title": "Back end",
-        "text": "Did I mention I like working with JavaScript? In the ever changing world of FE I try my best to keep up to date. React, Vue, Webpack, SCSS, semantic HTML5.",
-        "icons": ["react.svg", "javascript.svg", "sass.svg"]
+        "text": "I think its important to try and have a broad understanding of how the entire stack works, I like working with Node.js, currently working mostly with Symfony and I have some Laravel experience too.",
+        "icons": ["symfony.svg", "nodejs.svg", "php.svg", "laravel.svg", "mysql.svg", "docker.svg"]
     },
     {
-        "title": "Back end",
-        "text": "Did I mention I like working with JavaScript? In the ever changing world of FE I try my best to keep up to date. React, Vue, Webpack, SCSS, semantic HTML5.",
-        "icons": ["react.svg", "javascript.svg", "sass.svg"]
+        "title": "Work Flow",
+        "text": "Mostly have experience working in a sprint based system which personally works well for me: Jira, Trello, Gitlab, Github and mostly gitflow. I'm 100% flexible and happy to use what works best for the team.",
+        "icons": ["gitlab.svg", "github-octopus.svg", "gitflow.svg"]
     },
     {
-        "title": "Back end",
-        "text": "Did I mention I like working with JavaScript? In the ever changing world of FE I try my best to keep up to date. React, Vue, Webpack, SCSS, semantic HTML5.",
-        "icons": ["react.svg", "javascript.svg", "sass.svg"]
+        "title": "What else?",
+        "text": "I’m not a pro designer but I enjoy prototyping / web design and I’m really interested in working towards good UX/UI. I usually work on macOS but I'm open to anything.",
+        "icons": ["figma.svg", "adobe.svg", "macos.svg"]
     }
 ]
