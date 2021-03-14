@@ -1,15 +1,15 @@
 [
     {
         "title": "Obat",
-        "text": "Working on various parts of the invoicing platform lorem ipsum.",
+        "text": "Obat is a fast growing French startup in the construction sector",
         "src": "obat/main.png",
         "alt": "obat platform",
         "buttonText": "See more",
         "linkUrl": "https://www.obat.fr/",
         "linkText": "Go to Obat",
         "infoTexts": [
-            "Obat is an invoicing platform based in France, focused on the construction sector.",
-            "I started working freelance which advanced into a full-time role.",
+            "First and foremost Obat is an invoicing platform, targeted towards the French speaking world of tradies!",
+            "I started working here freelance which has advanced into a full-time role as a Full Stack developer.",
             "PHP, Symfony, React, JavaScript, Bootstrap, Scss, jQuery"
         ],
         "images": [
@@ -23,6 +23,174 @@
             },
             { 
                 "src": "projects/obat/admin.png",
+                "alt": "a photo"
+            }
+        ]
+    },
+    {
+        "title": "Plume Nomade",
+        "text": "Portfolio for content writing services, built with Nuxt.js.",
+        "src": "plume/index.png",
+        "alt": "plume nomade website",
+        "buttonText": "See more",
+        "linkUrl": "https://plumenomade.fr/",
+        "linkText": "Check out Plume Nomade",
+        "infoTexts": [
+            "Built for a freelance content writer to help boost their online presence and generate more leads.",
+            "I designed and created the website with Nuxt.js to get the seo benefits of server-side rendering. Nuxt.js also makes it easy to spin up a project in no time!",
+            "Nuxt.js, SCSS"
+        ],
+        "images": [
+            { 
+                "src": "projects/plume/index.png",
+                "alt": "main page"
+            },
+            { 
+                "src": "projects/plume/services.png",
+                "alt": "services page"
+            },
+            { 
+                "src": "projects/plume/services-scrolled.png",
+                "alt": "services page scrolled to cards"
+            },
+            { 
+                "src": "projects/plume/index-scrolled.png",
+                "alt": "index page scrolled to info"
+            },
+            { 
+                "src": "projects/plume/footer.png",
+                "alt": "website footer"
+            }
+        ]
+    },
+    {
+        "title": "Reddit FPL GW bot",
+        "text": "A bot that posts to the r/FantasyPL subreddit",
+        "src": "obat/main.png",
+        "alt": "fpl bot on reddit",
+        "buttonText": "See more",
+        "linkUrl": "https://www.reddit.com/r/fpl_test_bot/comments/ldjs2b/how_did_play_thread_game_week_6_20202021/",
+        "linkText": "Check out an example post on Reddit",
+        "infoTexts": [
+            "This bot will post the weekly 'How Did ___ Play? Thread - Game Week' to the r/FantasyPL subreddit. Currently deployed and will start running next season.",
+            "I built this to help the mods of the community out as they are currently having to manually post 20 teams + players every week.",
+            "Uses the FPL API for data. Built with Node.js, deployed on Digital Ocean"
+        ],
+        "images": [
+            { 
+                "src": "projects/obat/referral.gif",
+                "alt": "a photo"
+            },
+            { 
+                "src": "projects/obat/platform.png",
+                "alt": "a photo"
+            },
+            { 
+                "src": "projects/obat/admin.png",
+                "alt": "a photo"
+            }
+        ]
+    },
+    {
+        "title": "Full-Stack MERN project",
+        "text": "My final project of the Treehouse TD program.",
+        "src": "mern/main.png",
+        "alt": "MERN project",
+        "buttonText": "See more",
+        "linkUrl": "https://mern-courses.herokuapp.com/",
+        "linkText": "Here's a live demo",
+        "infoTexts": [
+            "A full-stack application built using Mongo, Express, React and Node.",
+            "Users can view courses created by others. They can signup/signin to create, update and delete their own courses. The app makes requests to the RESTFUL API to interact with user/course data.",
+            "The project has client and server side validation, user friendly error handling and uses bcrypt to hash user passwords. With the rising popularity of dark-mode themes, I decided to go with a dark-mode style!"
+        ],
+        "images": [
+            { 
+                "src": "projects/mern/create.png",
+                "alt": "creating a course"
+            },
+            { 
+                "src": "projects/mern/single.png",
+                "alt": "displaying a course"
+            },
+            { 
+                "src": "projects/mern/signin.png",
+                "alt": "sign in example"
+            },
+            { 
+                "src": "projects/mern/signup.png",
+                "alt": "signup example with form validation"
+            }
+        ]
+    },
+    {
+        "title": "Phrase Hunter",
+        "text": "Hangman game.",
+        "src": "hangman/reset.png",
+        "alt": "Phrase hunter project",
+        "buttonText": "See more",
+        "linkUrl": "https://mailboxarsonist.github.io/Treehouse-Project-4",
+        "linkText": "Here's a live demo",
+        "infoTexts": [
+            "Using Object-Oriented JavaScript, I created a hang-man style game where a user has 5 lives and has to guess the hidden phrase in order to win the game!",
+            "Users can either click the on-screen keyboard or simply use their keyboard to guess the letters. Hint : (Everything is retro video game themed, including the answers!)",
+            "This project was my first intro to object-oriented programming and was a great learning experience while also building a fun game."
+        ],
+        "images": [
+            { 
+                "src": "projects/hangman/start.png",
+                "alt": "start of game"
+            },
+            { 
+                "src": "projects/hangman/reset.png",
+                "alt": "first slide of game"
+            },
+            { 
+                "src": "projects/hangman/during.png",
+                "alt": "during the game"
+            },
+            { 
+                "src": "projects/hangman/success.png",
+                "alt": "won the game"
+            },
+            { 
+                "src": "projects/hangman/end.png",
+                "alt": "end of game when failing"
+            }
+        ]
+    },
+    {
+        "title": "Flickr Image Gallery",
+        "text": "React app that uses Flickr API",
+        "src": "flickr/sunset.png",
+        "alt": "Flickr app",
+        "buttonText": "See more",
+        "linkUrl": "https://eloquent-davinci-dacbc7.netlify.com/",
+        "linkText": "Live demo!",
+        "infoTexts": [
+            "Using React I created an application that makes a request to the Flickr API for 24 images. The response is then displayed in 24 images using the returned urls.",
+            "Users can click the buttons to display different images based on the button topic. You can also use the search bar to make a new call to the API and see those images.",
+            "This was my first experience with React and gave me a good introduction which I have continued to build on."
+        ],
+        "images": [
+            { 
+                "src": "projects/flickr/sunset.png",
+                "alt": "a photo"
+            },
+            { 
+                "src": "projects/flickr/leaves.png",
+                "alt": "a photo"
+            },
+            { 
+                "src": "projects/flickr/sea.png",
+                "alt": "a photo"
+            },
+            { 
+                "src": "projects/flickr/forests.png",
+                "alt": "a photo"
+            },
+            { 
+                "src": "projects/flickr/404.png",
                 "alt": "a photo"
             }
         ]

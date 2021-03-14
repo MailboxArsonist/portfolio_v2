@@ -4,7 +4,7 @@ import Button from '../Button/Button'
 
 export default function Header() {
     const [isOpen, setIsOpen] = useState(false)
-    const handleMenuToggle = e => {
+    const handleMenuToggle = () => {
         setIsOpen(!isOpen);
     }
     return (
@@ -22,7 +22,6 @@ export default function Header() {
                         </clipPath>
                     </defs>
                 </svg>
-
 
                 <button className={styles.toggle} onClick={handleMenuToggle}>
                     <div />
