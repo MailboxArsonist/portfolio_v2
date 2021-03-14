@@ -27,9 +27,9 @@ export default function Header() {
                     <div />
                 </button>
                 <ul className={styles.ul}>
-                    <li className={styles.li}><a href="">Projects</a></li>
-                    <li className={styles.li}><a href="">About</a></li>
-                    <li className={styles.li}><a href="">Say Hello</a></li>
+                    <li className={styles.li}><a href="#projects">Projects</a></li>
+                    <li className={styles.li}><a href="#about">About</a></li>
+                    <li className={styles.li}><a href="#footer">Say Hello</a></li>
                 </ul>
             </nav>
         </header>

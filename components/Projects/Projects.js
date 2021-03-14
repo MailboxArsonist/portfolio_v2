@@ -45,7 +45,7 @@ export default function Projects() {
     ))
 
     return (
-        <section className={styles.section}>
+        <section id="projects" className={styles.section}>
 
             <Modal
                 isOpen={modalIsOpen}

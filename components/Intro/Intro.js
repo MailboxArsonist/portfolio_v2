@@ -6,7 +6,7 @@ import services from '../../data/services.json'
 const Cards = services.map(({title, text, icons}) => (<Card title={title} text={text} key={title} icons={icons} />))
 export default function Intro() {
     return (
-        <section className={styles.section}>
+        <section id="about" className={styles.section}>
             <div className={styles.container}>
                 <h3 className={styles.h3}>My name is Matthew</h3>
                 <p className={styles.p}>
