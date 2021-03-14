@@ -18,7 +18,7 @@ export default function Footer() {
             <div>
                 <div>
                     <h4>Contact</h4>
-                    <p>Shoot me a message, I’ll get back to you the same day, except Sundays..</p>
+                    <p>Shoot me a message, I’ll get back to you within 24 hours!</p>
                     <ul className={styles.info}>
                         <li>📬   <span>matthewdodd93@gmail.com</span></li>
                         <li>📱   <span>+44 7832 789 508</span></li>
@@ -32,12 +32,12 @@ export default function Footer() {
                             </a>
                         </li>
                         <li>
-                            <a href="https://github.com/MailboxArsonist" target="_blank">
+                            <a href="https://www.linkedin.com/in/matthew-dodd-5ab50315a/" target="_blank">
                                 <Image src={"/icons/linkedin.svg"} height={28} width={28} />
                             </a>
                         </li>
                         <li>
-                            <a href="https://github.com/MailboxArsonist" target="_blank">
+                            <a href="https://twitter.com/MatthewDodd1993" target="_blank">
                                 <Image src={"/icons/twitter.svg"} height={28} width={28} />
                             </a>
                         </li>
