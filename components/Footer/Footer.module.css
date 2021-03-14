@@ -92,6 +92,18 @@
     
 }
 
+p.emailSentMessage {
+    color: black;
+}
+
+p.emailSentMessage a {
+    color: var(--primary);
+}
+
+p.emailSentMessage a:hover {
+    text-decoration: underline;
+}
+
 @media screen and (min-width: 500px) {
     .footer > div > div {
         min-width: 400px;
