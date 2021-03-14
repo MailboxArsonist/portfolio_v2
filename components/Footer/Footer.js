@@ -19,10 +19,10 @@ export default function Footer() {
         emailjs.sendForm(process.env.NEXT_PUBLIC_EMAIL_SERVICE, process.env.NEXT_PUBLIC_EMAIL_TEMPLATE, e.target, process.env.NEXT_PUBLIC_EMAIL_USER)
           .then(() => {
             setEmailSent(true)
-          }, () => {
+          }).catch(() => {
             setEmailSent(true)
             setEmailError(true)
-          });
+          })
     }
 
     return (
@@ -60,7 +60,7 @@ export default function Footer() {
                     <h4>Looking for someone to drink all the office coffee?</h4>
                     <p>Fill in the form below..</p>
                     { emailSent ? 
-                        <p class={styles.emailSentMessage}>{ emailError ? errorMessage : successMessage }</p> :
+                        <p className={styles.emailSentMessage}>{ emailError ? errorMessage : successMessage }</p> :
                     
                         <form className={styles.form} onSubmit={handleSubmit}>
                             <input 
