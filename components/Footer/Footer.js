@@ -20,9 +20,9 @@ export default function Footer() {
                     <h4>Contact</h4>
                     <p>Shoot me a message, I’ll get back to you the same day, except Sundays..</p>
                     <ul className={styles.info}>
-                        <li>📬   matthewdodd93@gmail.com</li>
-                        <li>📱   +44 7832 789 508</li>
-                        <li>📍   Brighton </li>
+                        <li>📬   <span>matthewdodd93@gmail.com</span></li>
+                        <li>📱   <span>+44 7832 789 508</span></li>
+                        <li>📍   <span>Brighton</span></li>
                     </ul>
                     <p>You can also find me here.</p>
                     <ul className={styles.links}>
