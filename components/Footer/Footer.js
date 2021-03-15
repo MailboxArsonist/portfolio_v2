@@ -11,7 +11,7 @@ export default function Footer() {
     const [emailSent, setEmailSent] = useState(false)
     const [emailError, setEmailError] = useState(false)
     const successMessage = 'Thanks a lot! I\'ll get back to you soon. 😊'
-    const errorMessage = <a href="mailto:matthewdodd93@gmail.com">😟 Sorry.. Looks like something went wrong, click here to send me an email the old fashioned way!</a>
+    const errorMessage = <a href="mailto:matthewdodd93@gmail.com" name="email">😟 Sorry.. Looks like something went wrong, click here to send me an email the old fashioned way!</a>
 
     const handleSubmit = (e) => {
         e.preventDefault()
@@ -29,7 +29,7 @@ export default function Footer() {
         <footer id="footer" className={styles.footer}>
             <div>
                 <div>
-                    <h4>Contact</h4>
+                    <h6>Contact</h6>
                     <p>Shoot me a message, I’ll get back to you within 24 hours!</p>
                     <ul className={styles.info}>
                         <li>📬   <span>matthewdodd93@gmail.com</span></li>
@@ -39,17 +39,17 @@ export default function Footer() {
                     <p>You can also find me here.</p>
                     <ul className={styles.links}>
                         <li>
-                            <a href="https://github.com/MailboxArsonist" target="_blank">
+                            <a href="https://github.com/MailboxArsonist" target="_blank" name="github" rel="noopener">
                                 <Image src={"/icons/github.svg"} height={28} width={28} />
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.linkedin.com/in/matthew-dodd-5ab50315a/" target="_blank">
+                            <a href="https://www.linkedin.com/in/matthew-dodd-5ab50315a/" target="_blank" name="linkedin" rel="noopener">
                                 <Image src={"/icons/linkedin.svg"} height={28} width={28} />
                             </a>
                         </li>
                         <li>
-                            <a href="https://twitter.com/MatthewDodd1993" target="_blank">
+                            <a href="https://twitter.com/MatthewDodd1993" target="_blank" name="twitter" rel="noopener">
                                 <Image src={"/icons/twitter.svg"} height={28} width={28} />
                             </a>
                         </li>
@@ -57,7 +57,7 @@ export default function Footer() {
                 </div>
                 
                 <div className={styles.formContainer}>
-                    <h4>Looking for someone to drink all the office coffee?</h4>
+                    <h6>Looking for someone to drink all the office coffee?</h6>
                     <p>Fill in the form below..</p>
                     { emailSent ? 
                         <p className={styles.emailSentMessage}>{ emailError ? errorMessage : successMessage }</p> :

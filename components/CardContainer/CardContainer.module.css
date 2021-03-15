@@ -4,6 +4,7 @@
 
 .cards {
     overflow-x: auto;   
+    overflow-y: hidden;
     width: 100%;
     display: flex;
     scrollbar-width: none;

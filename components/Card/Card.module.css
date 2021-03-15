@@ -1,6 +1,6 @@
 .article {
     width: 280px;
-    height: 330px;
+    /* height: 330px; */
     background-color: var(--primary);
     color: #fff;
     border-radius: 20px;

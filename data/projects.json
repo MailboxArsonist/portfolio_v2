@@ -2,7 +2,7 @@
     {
         "title": "Obat",
         "text": "Obat is a fast growing French startup in the construction sector",
-        "src": "obat/main.png",
+        "src": "obat/main2.png",
         "alt": "obat platform",
         "buttonText": "See more",
         "linkUrl": "https://www.obat.fr/",
@@ -14,26 +14,35 @@
         ],
         "images": [
             { 
-                "src": "projects/obat/referral.gif",
-                "alt": "a photo"
+                "src": "projects/obat/referral.png",
+                "alt": "obat referral page"
             },
             { 
-                "src": "projects/obat/platform.png",
-                "alt": "a photo"
+                "src": "projects/obat/landing.png",
+                "alt": "obat landing page"
             },
             { 
-                "src": "projects/obat/admin.png",
-                "alt": "a photo"
+                "src": "projects/obat/statistics.png",
+                "alt": "obat statistics page"
+            },
+            { 
+                "src": "projects/obat/news.png",
+                "alt": "obat news page"
+            },
+            { 
+                "src": "projects/obat/templating.png",
+                "alt": "obat templating page"
             }
         ]
     },
     {
         "title": "Plume Nomade",
         "text": "Portfolio for content writing services, built with Nuxt.js.",
-        "src": "plume/index.png",
+        "src": "plume/main2.png",
         "alt": "plume nomade website",
         "buttonText": "See more",
         "linkUrl": "https://plumenomade.fr/",
+        "githubLink": "https://github.com/MailboxArsonist/plume",
         "linkText": "Check out Plume Nomade",
         "infoTexts": [
             "Built for a freelance content writer to help boost their online presence and generate more leads.",
@@ -66,10 +75,11 @@
     {
         "title": "Reddit FPL GW bot",
         "text": "A bot that posts to the r/FantasyPL subreddit",
-        "src": "obat/main.png",
+        "src": "bot/main.png",
         "alt": "fpl bot on reddit",
         "buttonText": "See more",
         "linkUrl": "https://www.reddit.com/r/fpl_test_bot/comments/ldjs2b/how_did_play_thread_game_week_6_20202021/",
+        "githubLink": "https://github.com/MailboxArsonist/fpl-gameweek-review-bot",
         "linkText": "Check out an example post on Reddit",
         "infoTexts": [
             "This bot will post the weekly 'How Did ___ Play? Thread - Game Week' to the r/FantasyPL subreddit. Currently deployed and will start running next season.",
@@ -78,16 +88,8 @@
         ],
         "images": [
             { 
-                "src": "projects/obat/referral.gif",
-                "alt": "a photo"
-            },
-            { 
-                "src": "projects/obat/platform.png",
-                "alt": "a photo"
-            },
-            { 
-                "src": "projects/obat/admin.png",
-                "alt": "a photo"
+                "src": "projects/bot/main.png",
+                "alt": "reddit example"
             }
         ]
     },
@@ -98,6 +100,7 @@
         "alt": "MERN project",
         "buttonText": "See more",
         "linkUrl": "https://mern-courses.herokuapp.com/",
+        "githubLink": "https://github.com/MailboxArsonist/treehouse-project-10",
         "linkText": "Here's a live demo",
         "infoTexts": [
             "A full-stack application built using Mongo, Express, React and Node.",
@@ -126,10 +129,11 @@
     {
         "title": "Phrase Hunter",
         "text": "Hangman game.",
-        "src": "hangman/reset.png",
+        "src": "hangman/main.png",
         "alt": "Phrase hunter project",
         "buttonText": "See more",
         "linkUrl": "https://mailboxarsonist.github.io/Treehouse-Project-4",
+        "githubLink": "https://github.com/MailboxArsonist/Treehouse-Project-4",
         "linkText": "Here's a live demo",
         "infoTexts": [
             "Using Object-Oriented JavaScript, I created a hang-man style game where a user has 5 lives and has to guess the hidden phrase in order to win the game!",
@@ -162,10 +166,11 @@
     {
         "title": "Flickr Image Gallery",
         "text": "React app that uses Flickr API",
-        "src": "flickr/sunset.png",
+        "src": "flickr/main.png",
         "alt": "Flickr app",
         "buttonText": "See more",
         "linkUrl": "https://eloquent-davinci-dacbc7.netlify.com/",
+        "githubLink": "https://github.com/MailboxArsonist/Treehouse-Project-7",
         "linkText": "Live demo!",
         "infoTexts": [
             "Using React I created an application that makes a request to the Flickr API for 24 images. The response is then displayed in 24 images using the returned urls.",
@@ -175,23 +180,23 @@
         "images": [
             { 
                 "src": "projects/flickr/sunset.png",
-                "alt": "a photo"
+                "alt": "sunsets"
             },
             { 
                 "src": "projects/flickr/leaves.png",
-                "alt": "a photo"
+                "alt": "leaves"
             },
             { 
                 "src": "projects/flickr/sea.png",
-                "alt": "a photo"
+                "alt": "sea"
             },
             { 
                 "src": "projects/flickr/forests.png",
-                "alt": "a photo"
+                "alt": "forests"
             },
             { 
                 "src": "projects/flickr/404.png",
-                "alt": "a photo"
+                "alt": "not found"
             }
         ]
     }

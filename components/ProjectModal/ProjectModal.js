@@ -1,5 +1,6 @@
 import styles from './ProjectModal.module.css'
 import EmblaCarousel from '../Carousel/Carousel'
+import Image from 'next/image'
 
 export default function ProjectModal({project : { title, infoTexts, images, linkText, githubLink, linkUrl }, closeModal}) {
     const InfoTexts = infoTexts.map(text => <p>{text}</p>)
@@ -20,12 +21,13 @@ export default function ProjectModal({project : { title, infoTexts, images, link
                 { InfoTexts }
 
                 <div>
+                    {/* <span> - </span> */}
+                   <a href={linkUrl} target="_blank" name="demo" rel="noopener">{linkText}</a>
                     {  githubLink && (
-                        <a href={githubLink} target="_blank">
-                            <Image src={"/icons/github.svg"} height={24} width={24} />
+                        <a class={styles.githubLink} href={githubLink} target="_blank" name="github" rel="noopener">
+                            <Image src={"/icons/github-link.svg"} height={24} width={100} />
                         </a>
                     )}
-                   <a href={linkUrl} target="_blank">{linkText}</a>
                 </div>
             </div>
         </div>

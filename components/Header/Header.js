@@ -27,10 +27,10 @@ export default function Header() {
                     <div />
                 </button>
                 <ul className={styles.ul}>
-                    <li className={styles.li}><a href="#projects">Projects</a></li>
-                    <li className={styles.li}><a href="#about">About</a></li>
+                    <li className={styles.li}><a href="#projects" name="projects">Projects</a></li>
+                    <li className={styles.li}><a href="#about" name="about">About</a></li>
                     <li className={styles.li}>
-                        <a href="#footer"><Button>Get in touch 🙋</Button></a>
+                        <a href="#footer" name="contact"><Button>Get in touch 🙋</Button></a>
                     </li>
                 </ul>
             </nav>

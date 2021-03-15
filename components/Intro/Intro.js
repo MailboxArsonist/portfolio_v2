@@ -21,8 +21,8 @@ export default function Intro() {
                 </p>
                 <p className={styles.p}>
                     Here's my 
-                    <a href="https://drive.google.com/file/d/1uVN-6Fi74oswvmmqlWWVVtssLTQK8rYy/view?usp=sharing" target="_blank"> CV </a> 
-                    and <a href="https://github.com/MailboxArsonist" target="_blank">Github </a> 
+                    <a href="https://drive.google.com/file/d/1uVN-6Fi74oswvmmqlWWVVtssLTQK8rYy/view?usp=sharing" rel="noopener" target="_blank" name="CV"> CV </a> 
+                    and <a href="https://github.com/MailboxArsonist" rel="noopener" target="_blank" name="github">Github </a> 
                     if you'd like to get stuck in!
                 </p>
             </div>

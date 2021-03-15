@@ -18,7 +18,7 @@
     flex-grow: 1;
 }
 
-.footer h4 {
+.footer h6 {
     font-size: 2.5em;
     font-weight: 700;
     margin-bottom: 1rem;
@@ -69,7 +69,7 @@
     max-width: 460px;
 }
 
-.formContainer h4 {
+.formContainer h6 {
     font-size: 1.875em;
 }
 
