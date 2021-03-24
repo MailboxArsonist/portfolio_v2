@@ -1,4 +1,6 @@
-## Hello, this is my [Portfolio](https://matthewdodd.net/) built with Next.js and CSS modules. Feel free to fork and reuse, you can just swap out your projects/skills info in `data/projects.json` and `data/services.json`, you'll need to just edit some of the markup text too.
+## Hello, this is my [Portfolio](https://matthewdodd.net/) built with Next.js and CSS modules. 
+
+Feel free to fork and reuse, you can just swap out your projects/skills info in `data/projects.json` and `data/services.json`, you'll need to just edit some of the markup text too.
 
 If you want to use emailjs like I have done for the contact form you'll need to set up an account on [emailjs](https://www.emailjs.com/) (free account for a couple hundred emails per month) then just create a .env.local and copy over your email template key. It should look something like this in your .env.local
 
